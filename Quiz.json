@@ -1,0 +1,68 @@
+{
+    "title": "Super Quiz",
+    "questions": [
+        {
+            "questionText": "Which of the following countries is NOT a province of the Northwest Argentina?",
+            "choices": ["Jujuy", "Salta", "Misiones", "Tucuman"],
+            "answer": 2
+        },
+        {
+            "questionText": "Which mountain range borders the region?",
+            "choices": ["Atlas", "Rockies", "Alps", "Andes"],
+            "answer": 3
+        },
+        {
+            "questionText": "Which of the following is the name of an independent country?",
+            "choices": ["Albania", "Alberta", "America", "Athabaska"],
+            "answer": 0
+        },
+        {
+            "questionText": "How is classified the climate in the region?",
+            "choices": ["Polar", "Subtropical", "Temperate", "Arid"],
+            "answer": 1
+        },
+        {
+            "questionText": "Which of theses Battles hapenned in the region?",
+            "choices": [
+                "Platine War",
+                "Jordanist Rebellion",
+                "Battle of Salta",
+                "Falklands War",
+                "Conquest of the Chaco"
+            ],
+            "answer": 2
+        },
+        {
+            "questionText": "Which language is spoken in Norwest Argentina?",
+            "choices": ["Spanish", "French", "Portuguese", "English"],
+            "answer": 0
+        },
+        {
+            "questionText": "Which color does not appear in the Argentinian flag?",
+            "choices": ["Blue", "Yellow", "Red", "White"],
+            "answer": 2
+        },
+        {
+            "questionText": "Which of these countries borders the region?",
+            "choices": ["Chile", "Uruguay", "Venezuela", "Peru"],
+            "answer": 0
+        },
+        {
+            "questionText": "Which of the following provinces is the smallest?",
+            "choices": [
+                "Catamarca",
+                "Salta",
+                "Jujuy",
+                "Tucuman"
+            ],
+            "answer": 3
+        },
+        {
+            "questionText": "What's is the name of the salt desert in Jujuy?",
+            "choices": ["Salar de Uyuni", "Salinas Grandes", "Salar Grande", "Salina de Jujuy", "Salina Magna"],
+            "answer": 1
+        }
+        
+        
+    ]
+}

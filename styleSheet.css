@@ -1,0 +1,124 @@
+body {
+    background-color: #69a297;
+    font-size: 11pt;
+}
+
+li{
+    font-size: 80%;
+}
+
+
+#row-menu button {
+    background-color: #112f6c;
+}
+
+#row-menu img {
+    max-width: 140px;
+}
+
+#row-menu a {
+    color: #112f6c;
+}
+
+
+.lateral {
+    /* background-color: #69a297; */
+    background-color: #e5e5f7;
+    opacity: 0.4;
+    background-image:  linear-gradient(30deg, #69a297 12%, transparent 12.5%, transparent 87%, #69a297 87.5%, #69a297), linear-gradient(150deg, #69a297 12%, transparent 12.5%, transparent 87%, #69a297 87.5%, #69a297), linear-gradient(30deg, #69a297 12%, transparent 12.5%, transparent 87%, #69a297 87.5%, #69a297), linear-gradient(150deg, #69a297 12%, transparent 12.5%, transparent 87%, #69a297 87.5%, #69a297), linear-gradient(60deg, #69a29777 25%, transparent 25.5%, transparent 75%, #69a29777 75%, #69a29777), linear-gradient(60deg, #69a29777 25%, transparent 25.5%, transparent 75%, #69a29777 75%, #69a29777);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+}
+
+#middle-column {
+    background-color: #515d73;
+}
+
+#footer {
+    background-color: #00264d;
+    color: lightgray;
+    font-size: 11pt;
+}
+
+
+.socialItem {
+    float: left;
+    margin: 3%;
+}
+
+#footer img {
+    width: 20px;
+}
+
+#footer_links a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.my-btn {
+    background-color: #112f6c;
+}
+
+.my-title {
+    background-color: black;
+    font-family: monospace;
+    letter-spacing: .7em;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 575px) {
+    body {
+        font-size: 0.85em;
+    }
+
+    #footer {
+        font-size: 0.85em;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+
+    .my-title {
+        font-size: 200%;
+    }
+    
+    #row-menu img {
+        max-width: 160px;
+    }
+
+    #footer img {
+        width: 30px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    .my-title {
+        font-size: 250%;
+    }
+    
+    #row-menu img {
+        max-width: 180px;
+    }
+
+    #footer {
+        font-size: 1em;
+    }
+
+    #footer img {
+        width: 30px;
+    }
+
+}

@@ -1,0 +1,13 @@
+.mybg{
+
+/*     background: 
+    linear-gradient(
+      rgba(173, 172, 172, 0.808), 
+      rgba(173, 172, 172, 0.808)
+    ),
+    url(question-marks.png); */
+}
+
+.hidden{
+    display: none;
+}

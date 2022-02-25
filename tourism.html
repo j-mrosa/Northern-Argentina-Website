@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Northern Argentina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleSheet.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <!--lateral column-->
+            <div class="col d-none d-lg-block lateral"></div>
+
+            <!--middle column-->
+            <div class="col-12 col-lg-11 col-xl-10" id="middle-column">
+
+                <!--nav bar-->
+                <div class="row bg-white" id="row-menu">
+
+
+                    <div class="col dropdown d-md-none">
+
+                        <button class="btn btn-dark dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MENU
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="index.html">HOME</a>
+                            <a class="dropdown-item" href="blog.html">BLOG</a>
+                            <a class="dropdown-item" href="history.html">HISTORY</a>
+                            <a class="dropdown-item" href="geography.html">GEOGRAPHY</a>
+                            <a class="dropdown-item" href="economy.html">ECONOMY</a>
+                            <a class="dropdown-item" href="tourism.html">TOURISM</a>
+                            <a class="dropdown-item" href="quiz.html">QUIZ</a>
+                            <a class="dropdown-item" href="useful_links.html">LINKS</a>
+                        </div>
+                    </div>
+
+                    <div class="col-5 d-none d-md-block p-0">
+                        <ul class="nav pt-2">
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="history.html">HISTORY</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="geography.html">GEOGRAPHY</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 col-md-2 p-0 text-center"> <img class="img-fluid mx-1" src="images/Logo-Northern5.png"></div>
+
+                    <div class="col-5 d-none d-md-block p-0">
+                        <ul class="nav pt-2">
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="tourism.html">TOURISM</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="economy.html">ECONOMY</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="quiz.html">QUIZ</a>
+                            </li>
+                            <li class="nav-item mx-auto">
+                                <a class="nav-link" href="useful_links.html">LINKS</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <!--banner-->
+                <div class="row">
+                    <img class="img-fluid p-0 m-0 d-md-none" src="images/Banners/index-phone.jpg" alt="banner">
+                    <img class="img-fluid p-0 m-0 d-none d-md-block" src="images/Banners/index-cropped.jpg" alt="banner">
+                </div>
+
+                <!--main content-->
+                <div class="row">
+
+                    <!--title-->
+                    <h4 class="text-white mx-auto p-3 my-title">TOURISM</h4>
+
+
+                    <h3 class="col-12 text-white text-center mb-3 mt-5">Main Landmarks</h3>
+                    <p class="text-white m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac metus lobortis, lobortis velit sit amet, luctus ante. Phasellus mattis sapien orci, eget ullamcorper ante lobortis posuere. Nulla facilisi. Integer sed tincidunt felis, sed accumsan est. Sed sodales nisl eget tristique iaculis. Nulla pharetra faucibus felis nec bibendum. Sed tempor diam sit amet purus hendrerit mattis. Mauris nec massa turpis. Sed vel urna vel neque pharetra facilisis non sed elit. Ut id justo consectetur, suscipit arcu non, volutpat libero. </p>
+                    
+                    
+                    <div class="row">
+
+
+                        <div class="col-12 col-md-7 my-3">
+
+                            <div id="carousel-1" class="carousel my-carousel" data-ride="carousel">
+
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="img-fluid" src="images/tourism/purmamarca-siete-colores.jpg" alt="siete-colores">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Sierra Siete Colores</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/tourism/OjosDelSalar.jpg" alt="OjosDelSalar">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Ojos del Salar</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/tourism/purmamarca-pueblo.jpg" alt="pueblo">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Pueblos</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/tourism/hotel.jpg" alt="hotel">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Hotels</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/tourism/SaltDesert.jpg" alt="SaltDesert>
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Salt Desert</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#carousel-1" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel-1" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                            </div>
+                        
+
+                        <div class="col-12 col-md-5 my-3">
+                            <div id="accordion1">
+                                <div class="card">
+                                    <div class="card-header ">
+                                        <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse1">
+                                            Sierra Siete Colores
+                                        </a>
+                                    </div>
+                                    <div id="collapse1" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse2">
+                                            Ojos del Salar
+                                        </a>
+                                    </div>
+                                    <div id="collapse2" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse3">
+                                            Pueblos
+                                        </a>
+                                    </div>
+                                    <div id="collapse3" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse4">
+                                            Hotels
+                                        </a>
+                                    </div>
+                                    <div id="collapse4" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse5">
+                                            Salt Desert
+                                        </a>
+                                    </div>
+                                    <div id="collapse5" class="collapse" data-parent="#accordion1">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <h3 class="col-12 text-white text-center mb-3 mt-5">Cultural life</h3>
+                    <p class="text-white m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac metus lobortis, lobortis velit sit amet, luctus ante. Phasellus mattis sapien orci, eget ullamcorper ante lobortis posuere. Nulla facilisi. Integer sed tincidunt felis, sed accumsan est. Sed sodales nisl eget tristique iaculis. Nulla pharetra faucibus felis nec bibendum. Sed tempor diam sit amet purus hendrerit mattis. Mauris nec massa turpis. Sed vel urna vel neque pharetra facilisis non sed elit. Ut id justo consectetur, suscipit arcu non, volutpat libero. </p>
+
+                    <div class="row">
+
+                        <div class="col-12 col-md-7 order-md-12 my-3">
+
+                            <div id="carousel-2" class="carousel my-carousel" data-ride="carousel">
+
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="img-fluid" src="images/Culture/food.jpg" alt="food">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Cuisine</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/Culture/colors.jpg" alt="colors">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Colors</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/Culture/Music-restaurant.jpg" alt="restaurant">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Music</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/Culture/saltenas.jpg" alt="saltenas">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Street food</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="images/Culture/llamas.jpg" alt="llamas">
+                                        <div class="carousel-caption">
+                                            <h3 class="bg-dark">Animals</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#carousel-2" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel-2" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-5 order-md-1 my-3">
+                            <div id="accordion2">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse6">
+                                            Cuisine
+                                        </a>
+                                    </div>
+                                    <div id="collapse6" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse7">
+                                            Colors
+                                        </a>
+                                    </div>
+                                    <div id="collapse7" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse8">
+                                            Music
+                                        </a>
+                                    </div>
+                                    <div id="collapse8" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse9">
+                                            Street food
+                                        </a>
+                                    </div>
+                                    <div id="collapse9" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapse10">
+                                            Animals
+                                        </a>
+                                    </div>
+                                    <div id="collapse10" class="collapse" data-parent="#accordion2">
+                                        <div class="card-body">
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <!--footer-->
+                <div class="row" id="footer">
+                    <div class="col-3 pt-4">
+                        <h6>Find us on Social Media:</h6>
+                    </div>
+
+                    <div class="col-4 pt-4">
+                        <div class="socialItem"><a href="https://twitter.com"><img src="images/social-media/Twitter.png" alt="Twitter icon" data-toggle="tooltip" title="Go to Social Media"></a></div>
+                        <div class="socialItem"><a href="https://www.facebook.com/"><img src="images/social-media/Facebook.png" alt="Facebook icon" data-toggle="tooltip" title="Go to Social Media"></a></div>
+                        <div class="socialItem"><a href="https://www.instagram.com/"><img src="images/social-media/Instagram.png" alt="Instagram icon" data-toggle="tooltip" title="Go to Social Media"></a></div>
+                        <div class="socialItem"><a href="https://www.snapchat.com/"><img src="images/social-media/Snapchat-3.png" alt="Snapchat icon"data-toggle="tooltip" title="Go to Social media"></a></div>
+
+                    </div>
+
+                    <div class="col-5 mt-2" id="footer_links">
+                        <ul class="float-right">
+                            <li>Contact us: northernMail@gmail.com</li>
+                            <li><a href="https://www.eltribuno.com/" data-toggle="tooltip" title="Go to dailyfinland Web site">Local News</a></li>
+                            <li><a href="https://www.booking.com/region/ar/jujuy.html" data-toggle="tooltip" title="Go to booking Web site">Find an Accomodation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--lateral column-->
+            <div class="col d-none d-lg-block lateral"></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+/* html{
+    background: linear-gradient(to right,rgb(2, 46, 18), rgb(0, 4, 0), rgb(0, 4, 0), rgb(2, 46, 18));
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 13pt;
+} */
+
+/* h1 {
+    letter-spacing: .1em;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Warnes', cursive;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #015a06, 0 0 20px #015a06, 0 0 25px #015a06, 0 0 30px #015a06, 0 0 35px #015a06;
+} */
+
+
+
+#filters{
+/*     font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    letter-spacing: .1em;
+    width: 60%;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    line-height: 2.2em;  
+}
+
+label{
+    display: inline-block;
+    width: 20%;
+}
+
+input{
+    border-radius: 2px;
+    border: solid 2px rgb(2, 21, 49);
+    caret-color: rgb(14, 24, 117);
+    color:rgb(2, 21, 49);
+    font-weight: bold;
+}
+
+#check label{
+    display: inline;
+}
+
+.myButtons{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    /* background-color:rgb(2, 44, 9); */
+    color: rgb(2, 21, 49);
+    border: solid 3px rgb(2, 21, 49);
+    border-radius: 12px;
+    font-size: 1.2em;
+    height: 50px;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.myButtons:hover{
+    height: 55px;
+}
+
+/* p{
+    font-size: 11pt;
+} */
+
+.myDiv{
+    padding: 20px;
+    border: solid 5px rgb(2, 21, 49);
+    border-radius: 12px;
+    width: 70%;
+    margin:auto;
+    margin-bottom:50px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.hiddenPosts{
+    display: none;
+}
+
+.myDiv p:nth-child(5){
+    padding: 20px;
+    background-color: rgb(225, 227, 238);
+    font-size: 13pt;
+}
+
+.myDiv h2, h3{
+    color:rgb(18, 20, 110);
+}
+
+.main{
+    font-size: .8rem;
+}

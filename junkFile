@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quiz App</title>
+
+
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+    
+    <!-- my css link -->
+    <link rel="stylesheet" href="quiz-style.css">
+
+    <!-- my js link -->
+    <script src="quiz-script.js"></script>
+</head>
+<body class="mybg"> 
+    <div class="container-fluid">   
+    <!-- header -->
+    <div class="jumbotron text-center bg-dark">   
+        <h1 id="titleQuiz" class="text-warning display-3 font-weight-bold"></h1>
+    </div>
+
+    <!-- buttons for questions container-->
+    <div id="buttons-container" class="container">
+    </div>
+
+    <!-- questions div -->
+    <div id="questions-container" class="container w-100 bg-transparent">
+    </div>
+
+    <!-- buttons submit and reset container -->
+    <div class="container">
+    <button id="submit" class="btn btn-dark my-5">Submit</button>
+    <button id="reset" class="btn btn-dark my-5">Reset</button>
+    </div>
+
+    <!-- scores div -->
+    <div id="results" class="hidden">
+        
+        <!-- display total -->
+        <div class="card bg-warning" id="total">
+        </div>
+
+        <!-- Title "details" -->
+        <div class="card bg-warning my-4 font-weight-bold">
+            <h2>Details:</h2>
+        </div>        
+
+        <!-- table -->
+        <table class="table table-bordered bg-white">
+            <thead>
+              <tr>
+                <th>Question #</th>
+                <th>Question Text</th>
+                <th>Correct Answer</th>
+                <th>Your Answer</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+          </table>
+
+    </div>
+
+    </div>
+
+</body>
+</html>

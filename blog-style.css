@@ -19,10 +19,10 @@
 /*     font-family: 'Courier New', Courier, monospace; */
     font-weight: bold;
     letter-spacing: .1em;
-    width: 60%;
+    width: 80%;
     color: rgb(255, 255, 255);
     margin: auto;
-    padding: 10px;
+    /* padding: 10px; */
     line-height: 2.2em;  
 }
 
@@ -69,7 +69,7 @@ input{
     padding: 20px;
     border: solid 5px rgb(2, 21, 49);
     border-radius: 12px;
-    width: 70%;
+    width: 80%;
     margin:auto;
     margin-bottom:50px;
     margin-top: 50px;
@@ -91,5 +91,5 @@ input{
 }
 
 .main{
-    font-size: .8rem;
+    font-size: .9rem;
 }
